@@ -28,6 +28,7 @@ public class ProductController {
         return ResponseEntity.ok(dto);
     }
 
+    // TODO add rota segura para salvar produto
     @PostMapping
     public ResponseEntity<ProductDTO> save(@RequestBody ProductDTO dto) {
         dto = service.save(dto);
