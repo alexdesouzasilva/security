@@ -32,3 +32,8 @@ build/
 ### VS Code ###
 .vscode/
 mvn
+
+### GITHUB ###
+bin/
+/bin
+.github/workflows/bin
