@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: "@project.name@"
+    profiles:
+        active: DEV
+
+    jpa:
+        open-in-view: false
