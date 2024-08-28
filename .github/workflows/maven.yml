@@ -14,5 +14,5 @@ jobs:
           cache: maven
       - name: Install Dependency
         run: mvn clean install
-      -name: Unit Test
+      - name: Unit Test
         run: mvn test
